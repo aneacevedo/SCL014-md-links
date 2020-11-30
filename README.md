@@ -24,37 +24,35 @@ Puedes conocerla y probarla [aquí](https://www.npmjs.com/package/show-markdown-
 ## 2. Instalación 🚀
 
 Para utilizar Show Markdown Links debes:
- 1.- instalar [Node.js](https://nodejs.org/) usando el comando
+
+1.- instalar [Node.js](https://nodejs.org/) usando el comando
 ```
 npm install
 ```
 2.- Instalar Show Markdown Links con el siguiente comando:
 ```
 npm i show-markdown-links
-npm intall show-markdown-links
 ```
 Y listo! ya puedes comenzar a usarlo.
 
 ## 3. Uso 💻
 
 Si sólo quieres ver los links extraidos de tus archivos .md tienes dos opciones, uno analizara el archivo especifico y el otro algún directorio:
-Puedes extraer todos los links presentes en tu archivo o directorio con la siguiente línea
+Puedes extraer todos los links presentes en tu archivo o directorio con alguna de las siguientes líneas:
 
 ```
 npm show-markdown-links nombredetuarchivo.md
-npm show-markdown-links ./ (Directorio actual)
+npm show-markdown-links ./(Directorio actual)
 ```
 A un costado de tus enlaces se mostrará con un ticket (✔) si el enlace está disponible, con *Error 404* si corresponde o con *Error* en cualquier otro caso.
 
 
 Puedes utilizar la opción disponibles pa el conteo resumido de los links en los que encontrarás los válidos, inválidos y el total.
-Para esto, intenta con éstas líneas en tu terminal:
+Para esto, intenta con una de éstas líneas en tu terminal:
 
 ```
 npm show-markdown-links nombredetuarchivo.md --validate
-
-npm show-markdown-links ./ (Directorio actual) --validate
-
+npm show-markdown-links ./(Directorio actual) --validate
 ```
 
 
