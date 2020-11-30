@@ -1,6 +1,6 @@
 {
     "name": "show-markdown-links",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependencies": {
         "filehound": "^1.17.4",
         "learnyounode": "^4.2.2",
