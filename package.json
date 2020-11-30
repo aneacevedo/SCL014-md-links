@@ -1,4 +1,34 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "filehound": "^1.17.4",
+    "learnyounode": "^4.2.2",
+    "node-fetch": "^2.6.1"
+  },
+  "description": "## Índice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneacevedo/SCL014-md-links.git"
+  },
+  "keywords": [
+    "node",
+    "md",
+    "markdown",
+    "links",
+    "md-links"
+  ],
+  "author": "Anelisse Acevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneacevedo/SCL014-md-links/issues"
+  },
+  "homepage": "https://github.com/aneacevedo/SCL014-md-links#readme"
 }
